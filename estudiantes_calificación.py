@@ -11,9 +11,12 @@ notas = [
     ["33"]
 ]
 
-if notas> 40:
-    print("Aprobado")
-else:
-    print("Suspenso")
+# if notas> 40:
+#     print("Aprobado")
+# else:
+#     print("Suspenso")
 
-notas[0][0].append( )
+i=0 
+while i * 5 < 100:
+	i = i + 1 
+	print(i * 5)
