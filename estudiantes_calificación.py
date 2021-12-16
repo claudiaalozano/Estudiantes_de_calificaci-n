@@ -4,4 +4,16 @@ import random
 import re
 import sys
 
-nota = int(input("Introduzca la nota para obtener la nota final: "))
+notas = [
+    ["73"],
+    ["67"],
+    ["38"],
+    ["33"]
+]
+
+if notas> 40:
+    print("Aprobado")
+else:
+    print("Suspenso")
+
+notas[0][0].append( )
