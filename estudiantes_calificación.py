@@ -5,7 +5,7 @@ import re
 import sys
 
 notas= [73 , 67 , 38 , 33]
-notas_finales=[]
+
 
 for i in range(len(notas)):
     if notas[i]> 40:
@@ -15,9 +15,15 @@ for i in range(len(notas)):
 
 
 for i in range (len(notas)):
-    cociente= int(notas_finales/5+1)
+    cociente= int(notas/5+1)
     multiplo= cociente * 5
-    
+    nota_final= 0
+    if(multiplo-notas<3):
+        nota_final += multiplo
+    else:
+        nota_final = notas
+    return nota_final
+
     
     
     
