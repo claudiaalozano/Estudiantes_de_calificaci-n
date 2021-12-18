@@ -2,6 +2,7 @@
 Mi dirección de Github es:https://github.com/claudiaalozano/Estudiantes_de_calificaci-n.git
 
 A continuación muestro un esquema de como se ejecutaría el código, para crearlo:
+![FIGMA FINAL NOTAS ESTUDIANTES](https://user-images.githubusercontent.com/91722847/146642300-09f87b29-79db-46bf-8ded-4ab260d4506c.png)
 
 
 El código finalmente es:
