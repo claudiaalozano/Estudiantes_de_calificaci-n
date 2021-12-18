@@ -15,23 +15,22 @@ for i in range(len(notas)):
 
 
 for i in range (len(notas)):
-    cociente= int(notas/5+1)
-    multiplo= cociente * 5
-    nota_final= 0
-    if(multiplo-notas<3):
-        nota_final += multiplo
+    if notas[i]>40:
+        cociente= int(notas[0]/5+1)
+        multiplo= cociente * 5
+        if (multiplo - notas[i])<3:
+            print("La nota del alumno {}".format(i+1) ,"se aproxima, la nota final es {}".format(multiplo))
+    if notas[1]>40:
+        cociente= int(notas[1]/5+1)
+        multiplo= cociente * 5
+        if (multiplo - notas[i])<3:
+            print("La nota del alumno {}".format(i+2) ,"se aproxima, la nota final es {}".format(multiplo))
+    elif notas[i]< 40:
+        print("El alumno {} se queda con su nota".format(i+1, notas[i]))
     else:
-        nota_final = notas
-    return nota_final
+        print("El alumno {} se queda con su nota".format(i+1, notas[i]))
 
     
     
     
-    #i * 5 < 100
-    #i= 0
-	#i = i + 1 
-	#if i-notas>=3:
-        #print("La nota no se aproxima, la nota es:" , notas)
-    #else:
-        #notas1= i
-        #print("La nota se aproxima, tu nota es: " , notas)
+    
